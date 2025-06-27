@@ -31,29 +31,24 @@ The generated image combines the structure of the content image with the texture
 Install dependencies with:
 pip install torch torchvision pillow matplotlib
 
-▶️ How to Use
+##▶️ How to Use
 Replace the image paths inside RnDTask_NST.py with your own:
 
 python
-Copy
-Edit
 content_img = load_image("content.jpg")
 style_img = load_image("style.jpg")
 Run the script:
 
 bash
-Copy
-Edit
 python RnDTask_NST.py
 The result will be saved as generated_img.jpg.
 
-📄 Report
+##📄 Report
 A detailed project report is included in the repository.
-📎 View the report on Google Docs
+📎 [View the report on Google Docs](https://docs.google.com/document/d/19knktGb8CzOxJmz6Laj1xA6S1A__GzoIEnU0gV6-GjE/edit?tab=t.0)
 
-📚 References
+##📚 References
 Gatys, Leon A., et al. “A Neural Algorithm of Artistic Style.” 2015.
-
 PyTorch NST tutorial
 
 ```bash
