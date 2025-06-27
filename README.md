@@ -50,7 +50,7 @@ pip install torch torchvision pillow matplotlib
 ## 📝 Report
 
 A detailed project report is included in the repository.  
-📎 [View the report on Google Docs](<INSERT-YOUR-SHAREABLE-LINK-HERE>)  
+📎 [View the report on Google Docs](https://docs.google.com/document/d/19knktGb8CzOxJmz6Laj1xA6S1A__GzoIEnU0gV6-GjE/edit?tab=t.0)  
 Or refer to `NST_Project_Report.pdf` if you've added it to this repo.
 
 The report explains:
@@ -65,7 +65,7 @@ The report explains:
 ## 📚 References
 
 - Gatys, Leon A., et al. “A Neural Algorithm of Artistic Style.” *arXiv preprint arXiv:1508.06576*, 2015.  
-  [arXiv Link](https://arxiv.org/abs/1508.06576)
+  [arXiv Link](https://arxiv.org/pdf/1508.06576)
 
 - [PyTorch Official NST Tutorial](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 
