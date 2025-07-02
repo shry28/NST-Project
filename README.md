@@ -8,7 +8,6 @@ Inspired by the paper _"A Neural Algorithm of Artistic Style"_ by Gatys et al., 
 
 The generated image combines the structure of the content image with the texture and color patterns of the style image.
 
-![Output Image](images/generated_img.jpg)
 
 ## 🧠 Features
 
