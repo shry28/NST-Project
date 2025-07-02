@@ -50,7 +50,7 @@ pip install torch torchvision pillow matplotlib
 
 A detailed project report is included in the repository.  
 📎 [View the report on Google Docs](https://docs.google.com/document/d/19knktGb8CzOxJmz6Laj1xA6S1A__GzoIEnU0gV6-GjE/edit?tab=t.0)  
-Or refer to `NST_Project_Report.pdf` if you've added it to this repo.
+Or refer to `NST_Project_Report.pdf` 
 
 The report explains:
 - Project motivation and methodology
