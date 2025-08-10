@@ -17,7 +17,7 @@
 <!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/cgs-iitkgp/NST-Project">
-     <img width="140" alt="Neural Style Transfer Example" src="https://raw.githubusercontent.com/shry28/NST-Project/main/generated_img/generated_blener_vg.png">
+     <img width="500" alt="Neural Style Transfer Example" src="https://raw.githubusercontent.com/shry28/NST-Project/main/generated_img/generated_blener_vg.png">
   </a>
 
   <h3 align="center">NST-Project</h3>
@@ -103,7 +103,7 @@ _Now that the environment has been set up and configured to properly compile and
 <!-- UPDATE -->
 Once installed, you can run the script from the command line to apply style transfer.
 
-<div align="center"> <img src="./examples/content.jpg" width="30%" alt="Content Image"> <img src="./examples/style.jpg" width="30%" alt="Style Image"> <img src="./examples/output.jpg" width="30%" alt="Styled Output"> </div>
+<div align="center"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/content img/pool.jpg" width="30%" alt="Content Image"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/style type/oil.jpg" width="30%" alt="Style Image"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/generated_img/generated_pool_oil.png" width="30%" alt="Styled Output"> </div>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
