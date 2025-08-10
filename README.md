@@ -135,13 +135,13 @@ Honoring the original creator(s) and ideator(s) of this project.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/shry28/NST-Project.svg?style=for-the-badge
-[contributors-url]: https://github.com/shry28/NST-Project/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/shry28/NST-Project.svg?style=for-the-badge
-[forks-url]: https://github.com/shry28/NST-Project/network/members
-[stars-shield]: https://img.shields.io/github/stars/shry28/NST-Project.svg?style=for-the-badge
-[stars-url]: https://github.com/shry28/NST-Project/stargazers
-[issues-shield]: https://img.shields.io/github/issues/shry28/NST-Project.svg?style=for-the-badge
-[issues-url]: https://github.com/shry28/NST-Project/issues
-[license-shield]: https://img.shields.io/github/license/shry28/NST-Project.svg?style=for-the-badge
-[license-url]: https://github.com/shry28/NST-Project/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/cgs-iitkgp/NST-Project.svg?style=for-the-badge
+[contributors-url]: https://github.com/cgs-iitkgp/NST-Project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cgs-iitkgp/NST-Project.svg?style=for-the-badge
+[forks-url]: https://github.com/cgs-iitkgp/NST-Project/network/members
+[stars-shield]: https://img.shields.io/github/stars/cgs-iitkgp/NST-Project.svg?style=for-the-badge
+[stars-url]: https://github.com/cgs-iitkgp/NST-Project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cgs-iitkgp/NST-Project.svg?style=for-the-badge
+[issues-url]: https://github.com/cgs-iitkgp/NST-Project/issues
+[license-shield]: https://img.shields.io/github/license/cgs-iitkgp/NST-Project.svg?style=for-the-badge
+[license-url]: https://github.com/cgs-iitkgp/NST-Project/blob/main/LICENSE
