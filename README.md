@@ -128,9 +128,7 @@ Honoring the original creator(s) and ideator(s) of this project.
 ## Additional documentation
 
   - [License](/LICENSE)
-  - [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
-  - [Security Policy](/.github/SECURITY.md)
-  - [Contribution Guidelines](/.github/CONTRIBUTING.md)
+ 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -145,4 +143,4 @@ Honoring the original creator(s) and ideator(s) of this project.
 [issues-shield]: https://img.shields.io/github/issues/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
 [issues-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/issues
 [license-shield]: https://img.shields.io/github/license/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
-[license-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/blob/master/LICENSE
+[license-url]: https://github.com/shry28/NST-Project/blob/main/LICENSE
