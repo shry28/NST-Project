@@ -1,72 +1,148 @@
-# Neural Style Transfer – PyTorch Implementation
+<div id="top"></div>
 
-This project implements Neural Style Transfer (NST) using PyTorch, allowing you to blend the content of one image with the artistic style of another to generate a new, stylized image.
+<!-- PROJECT SHIELDS -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links-->
+<div align="center">
 
-Inspired by the paper _"A Neural Algorithm of Artistic Style"_ by Gatys et al., this code uses a pre-trained VGG19 network to compute content and style representations and optimize a new image to match them.
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
 
-## 🖼️ Example Output
+</div>
 
-The generated image combines the structure of the content image with the texture and color patterns of the style image.
+<!-- PROJECT LOGO -->
+<br />
+<!-- UPDATE -->
+<div align="center">
+  <a href="https://github.com/cgs-iitkgp/NST-Project">
+     <img width="140" alt="Neural Style Transfer Example" src="https://raw.githubusercontent.com/shry28/NST-Project/main/examples/preview.jpg">
+  </a>
 
+  <h3 align="center">NST-Project</h3>
 
-## 🧠 Features
-
-- Feature extraction using VGG19 from `torchvision.models`
-- Layer-wise content and style loss calculation
-- Balancing style and content via adjustable weights (`alpha`, `beta`)
-- Image optimization via backpropagation and gradient descent
-- Includes a project report with explanation and results
-
-## 📁 Files Included
-
-- `RnDTask_NST.py` – Main NST implementation script
-- `content.jpg` – Content image
-- `style.jpg` – Style image
-- `generated_img.jpg` – Final stylized output
-- `NST_Project_Report.pdf` or Google Docs link – Report with explanation and results
-
-## 🛠️ Requirements
-
-Install dependencies with:
-pip install torch torchvision pillow matplotlib
-
-## ▶️ How to Use
-
-1. Open `RnDTask_NST.py`
-2. Replace the image paths with your own:
-    ```python
-    content_img = load_image("content.jpg")
-    style_img = load_image("style.jpg")
-    ```
-3. Run the script:
-    ```bash
-    python RnDTask_NST.py
-    ```
-4. The result will be saved as `generated_img.jpg`.
-
----
-
-## 📝 Report
-
-A detailed project report is included in the repository.  
-📎 [View the report on Google Docs](https://docs.google.com/document/d/19knktGb8CzOxJmz6Laj1xA6S1A__GzoIEnU0gV6-GjE/edit?tab=t.0)  
-Or refer to `NST_Project_Report.pdf` 
-
-The report explains:
-- Project motivation and methodology
-- Neural Style Transfer theory
-- Architecture and loss functions
-- Hyperparameter tuning
-- Final results and observations
-
----
-
-## 📚 References
-
-- Gatys, Leon A., et al. “A Neural Algorithm of Artistic Style.” *arXiv preprint arXiv:1508.06576*, 2015.  
-  [arXiv Link](https://arxiv.org/pdf/1508.06576)
-
-- [PyTorch Official NST Tutorial](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
+  <p align="center">
+  <!-- UPDATE -->
+    <i>Turn any photo into an artistic masterpiece using Neural Style Transfer</i>
+  </p>
+</div>
 
 
-```bash
+<!-- TABLE OF CONTENTS -->
+<details>
+<summary>Table of Contents</summary>
+
+- [About The Project](#about-the-project)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Contact](#contact)
+  - [Maintainer(s)](#maintainers)
+  - [creators(s)](#creators)
+- [Additional documentation](#additional-documentation)
+
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+<!-- UPDATE -->
+<div align="center">
+  <a href="https://github.com/cgs-iitkgp/NST-Project">
+    <img width="80%" src="https://raw.githubusercontent.com/shry28/NST-Project/main/examples/result_vangogh.jpg">
+  </a>
+</div>
+
+Neural Style Transfer (NST) is a deep learning technique that merges the content of one image with the style of another. This project uses PyTorch to implement NST, allowing you to generate stylized images with pre-trained VGG-19 features. You can experiment with different styles, content images, and tuning parameters to get unique results.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Getting Started
+
+To set up a local instance of the application, follow the steps below.
+
+### Prerequisites
+The following dependencies are required to be installed for the project to function properly:
+<!-- UPDATE -->
+* Python 3.8+
+* PyTorch
+* torchvision
+* Pillow
+
+  ```sh
+  pip install -r requirements.txt
+  ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+### Installation
+
+_Now that the environment has been set up and configured to properly compile and run the project, the next step is to install and configure the project locally on your system._
+<!-- UPDATE -->
+1. Clone the repository
+   ```sh
+   git clone https://github.com/shry28/NST-Project.git
+   cd NST-Project
+   ```
+2. Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+3. Execute the script
+   ```sh
+   python nst.py --content path/to/content.jpg --style path/to/style.jpg --output output.jpg
+   ```
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+
+<!-- USAGE EXAMPLES -->
+## Usage
+<!-- UPDATE -->
+Once installed, you can run the script from the command line to apply style transfer.
+
+<div align="center"> <img src="./examples/content.jpg" width="30%" alt="Content Image"> <img src="./examples/style.jpg" width="30%" alt="Style Image"> <img src="./examples/output.jpg" width="30%" alt="Styled Output"> </div>
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Contact
+
+### Maintainer(s)
+
+The currently active maintainer(s) of this project.
+
+<!-- UPDATE -->
+- [Shaurya Choudhary](https://github.com/shry28)
+
+### Creator(s)
+
+Honoring the original creator(s) and ideator(s) of this project.
+
+<!-- UPDATE -->
+- [Shaurya Choudhary](https://github.com/shry28)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Additional documentation
+
+  - [License](/LICENSE)
+  - [Code of Conduct](/.github/CODE_OF_CONDUCT.md)
+  - [Security Policy](/.github/SECURITY.md)
+  - [Contribution Guidelines](/.github/CONTRIBUTING.md)
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[contributors-shield]: https://img.shields.io/github/contributors/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
+[contributors-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
+[forks-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/network/members
+[stars-shield]: https://img.shields.io/github/stars/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
+[stars-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/stargazers
+[issues-shield]: https://img.shields.io/github/issues/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
+[issues-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/issues
+[license-shield]: https://img.shields.io/github/license/cgs-iitkgp/PROJECT_NAME.svg?style=for-the-badge
+[license-url]: https://github.com/cgs-iitkgp/PROJECT_NAME/blob/master/LICENSE
