@@ -17,7 +17,7 @@
 <!-- UPDATE -->
 <div align="center">
   <a href="https://github.com/cgs-iitkgp/NST-Project">
-     <img width="140" alt="Neural Style Transfer Example" src="https://raw.githubusercontent.com/shry28/NST-Project/main/examples/preview.jpg">
+     <img width="140" alt="Neural Style Transfer Example" src="https://raw.githubusercontent.com/shry28/NST-Project/main/generated_img/generated_blener_vg.png">
   </a>
 
   <h3 align="center">NST-Project</h3>
