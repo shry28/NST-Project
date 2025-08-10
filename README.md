@@ -90,10 +90,6 @@ _Now that the environment has been set up and configured to properly compile and
    ```sh
    pip install -r requirements.txt
    ```
-3. Execute the script
-   ```sh
-   python nst.py --content path/to/content.jpg --style path/to/style.jpg --output output.jpg
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -102,6 +98,11 @@ _Now that the environment has been set up and configured to properly compile and
 ## Usage
 <!-- UPDATE -->
 Once installed, you can run the script from the command line to apply style transfer.
+
+- Execute the script
+   ```sh
+   python nst.py --content path/to/content.jpg --style path/to/style.jpg --output output.jpg
+   ```
 
 <div align="center"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/content img/pool.jpg" width="30%" alt="Content Image"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/style type/oil.jpg" width="30%" alt="Style Image"> <img src="https://raw.githubusercontent.com/shry28/NST-Project/main/generated_img/generated_pool_oil.png" width="30%" alt="Styled Output"> </div>
 
